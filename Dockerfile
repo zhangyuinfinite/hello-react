@@ -9,4 +9,4 @@
 
 # 使用 nginx 镜像
 FROM nginx
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder build/ /usr/share/nginx/html
