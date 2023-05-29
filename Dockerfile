@@ -6,7 +6,6 @@
 # COPY . .
 # # 下载依赖包，并构建打包文件
 # RUN yarn build
-
-# 使用 nginx 镜像
 FROM nginx
-COPY --from=builder build/ /usr/share/nginx/html
+# # 复制打包后的web应用到容器内的nginx配置的首页路径
+COPY build/ /usr/share/nginx/html/
