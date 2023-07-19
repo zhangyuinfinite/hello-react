@@ -6,6 +6,7 @@
   height: 40vmin;
   pointer-events: none;
   font-size: 24px;
+  color: #ccc;
 }
 
 @media (prefers-reduced-motion: no-preference) {
