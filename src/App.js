@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div>asdfasdf</div>
+        <div>HELLO</div>
         <p>
           sadfasdfa
           Edit <code>src/App.j111s</code> and save to reload1111.
